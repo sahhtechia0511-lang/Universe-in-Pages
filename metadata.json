@@ -1,0 +1,6 @@
+{
+  "name": "Universe in Pages",
+  "description": "Sanctuário literário público e digital. Pesquisa real de livros via Google Books, resenhas comunitárias abertas, recomendações curadas e trilhas sonoras ambientais no conceito Stories in Sound.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

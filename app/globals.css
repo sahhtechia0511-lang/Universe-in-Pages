@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #6B2035;
+    --color-primary-dark: #481725;
+    --color-secondary: #894C5A;
+    --color-surface: #FBF7F0;
+    --color-surface-container: #F3E8D5;
+    --color-surface-container-high: #F2E7D4;
+    --color-surface-container-highest: #ECE1CE;
+    --color-surface-lowest: #FFFFFF;
+    --color-on-surface: #201B10;
+    --color-on-surface-variant: #544245;
+    --color-outline: #867275;
+    --color-gold: #C5A059;
+  }
+
+  body {
+    background-color: #FBF7F0;
+    color: #201B10;
+    font-feature-settings: "kern", "liga", "clig", "calt";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom selection */
+  ::selection {
+    background-color: #6B2035;
+    color: #FBF7F0;
+  }
+}
+
+/* Book Spine Deboss Accent */
+.book-spine-deboss {
+  box-shadow: inset 3px 0 0 0 #6B2035;
+}
+
+.book-spine-deboss-gold {
+  box-shadow: inset 3px 0 0 0 #C5A059;
+}
+
+/* Atmospheric Soft Glows */
+.bg-parchment {
+  background-color: #FBF7F0;
+}
+
+.bg-bordo {
+  background-color: #6B2035;
+}
+
+.bg-bordo-dark {
+  background-color: #481725;
+}
+
+.bg-bege {
+  background-color: #F3E8D5;
+}
+
+.text-bordo {
+  color: #6B2035;
+}
+
+.text-bordo-dark {
+  color: #481725;
+}
+
+.border-bordo {
+  border-color: #6B2035;
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F3E8D5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6B2035;
+}
